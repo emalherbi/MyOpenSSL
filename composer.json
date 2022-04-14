@@ -1,0 +1,15 @@
+{
+    "name": "emalherbi/myopenssl",
+    "description": "My OpenSSL",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/emalherbi/OpenSSL",
+    "require": {
+        "php": ">= 5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyOpenSSL\\": "src"
+        }
+    }
+}
