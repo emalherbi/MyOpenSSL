@@ -1,16 +1,11 @@
-# MyOpenSSL
+<?php
 
-# Install
+/*
+ * Eduardo Malherbi Martins
+ * Copyright @emalherbi
+ */
 
-```
-composer require emalherbi/myopenssl
-```
-
-# Usage
-
-```php
-# require_once '../src/MyOpenSSL.php';
-require_once 'vendor/autoload.php';
+require_once '../src/MyOpenSSL.php';
 
 $ivSSL = 'klEUGdjU4M827qruJdLZVTcVYbCsWoVG';
 $hashSSL = 'WK3judku9bOVPjprhrvU2xwCPwDNk4QN';
@@ -33,17 +28,3 @@ if ($key_public == $key_decrypt) {
 }
 
 echo '</pre>';
-```
-
-# Output Usage
-
-```
-String Token:ABC
-Encrypted String:dTBYUE9SZnpHS1BjN0UwcTFQRDBZUT09
-Decrypted string:ABC
-Correct authentication
-```
-
-# References
-
-[aalonzolu](https://gist.github.com/aalonzolu/69f63b54b6c94b9518c4e057cc88d267)
